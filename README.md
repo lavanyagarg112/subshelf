@@ -4,7 +4,7 @@ SubShelf is a Telegram bot for tracking subscriptions, free trials, renewals, an
 
 It is for people who want a lightweight subscription shelf without connecting a bank account or installing a full finance app.
 
-Try it out now: [Subshelf Bot](t.me/subshelf_bot)
+Try it out now: [Subshelf Bot](https://t.me/subshelf_bot)
 
 ## What You Can Track
 
