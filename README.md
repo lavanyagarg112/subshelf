@@ -1,6 +1,6 @@
 # SubShelf
 
-SubShelf is a Telegram-only subscription tracker built from `SUBSHELF_SPEC.md`.
+SubShelf is a Telegram-only subscription tracker.
 
 ## What is implemented
 
@@ -62,7 +62,6 @@ Required connector words:
 Billing schedule means how often it renews.
 Use `monthly`, `yearly`, `every 6 months`, or `every 14 days`.
 Dates can be `today`, `tomorrow`, `in 7 days`, or `YYYY-MM-DD`.
-The older `|` separator format still works, but it is no longer required.
 
 Reminder previews:
 
@@ -98,9 +97,3 @@ Receipt-style summaries:
 /receipt all
 /receipt upcoming 30
 ```
-
-## Notes
-
-- The encryption key must remain stable. If it changes, existing encrypted fields cannot be decrypted.
-- The raw SQLite file intentionally keeps scheduling fields such as dates, recurrence rules, timezone, and status in plaintext, while subscription names, amounts, currencies, notes, default currency, and chat IDs are encrypted.
-- MVP recurrence uses the subscription start date as the first payment date.
